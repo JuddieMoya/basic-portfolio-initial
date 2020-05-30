@@ -1,0 +1,26 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    
+  }
+  
+h1 {
+   margin-left: 500px; 
+   padding: 100px; 
+   color: white;
+   font-size: 300%;
+  
+  }
+
+header {
+    background-color: rgb(189, 133, 152);
+    background-blend-mode: hue;
+    opacity: inherit;
+}
+section{
+    margin: 100px;
+}
+footer {
+    font-size: 15px;
+    color: rgb(26, 4, 56);
+}
