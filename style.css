@@ -1,21 +1,22 @@
 body {
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
-    
+    background-color: rgb(223, 190, 201);
   }
   
 h1 {
-   margin-left: 500px; 
-   padding: 100px; 
+   
+  
    color: white;
    font-size: 300%;
-  
+   text-align: center;
   }
 
 header {
-    background-color: rgb(189, 133, 152);
-    background-blend-mode: hue;
+    background-color: rgb(223, 190, 201);
+    
     opacity: inherit;
+    
 }
 section{
     margin: 0px 100px 80px 80px ;
@@ -23,4 +24,32 @@ section{
 footer {
     font-size: 15px;
     color: rgb(26, 4, 56);
+}
+details ol{
+    font-style: italic;
+}
+
+.circular--portrait{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+  
+}
+/*
+img{
+    width:"200px"; 
+    height:"auto";
+
+    align-self: center;
+    background-origin: padding-box;
+    border: 100px;
+    border-image: round;
+    
+    
 }
