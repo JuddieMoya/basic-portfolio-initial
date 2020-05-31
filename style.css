@@ -27,7 +27,8 @@ section{
 }
 footer {
     font-size: 15px;
-    color: rgb(26, 4, 56);
+    color: rgb(31, 3, 70);
+    text-align: right;
 }
 details ol{
     font-style: italic;
