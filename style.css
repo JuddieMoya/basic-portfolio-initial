@@ -2,6 +2,7 @@ body {
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
     background-color: rgb(223, 190, 201);
+    text-align: justify;
   }
   
 h1 {
@@ -10,6 +11,7 @@ h1 {
    color: white;
    font-size: 300%;
    text-align: center;
+   margin-bottom: auto;
   }
   div h2{
       color:white;
@@ -40,13 +42,17 @@ details ol{
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
-}
-.circular--portrait img {
-  width: 100%;
-  height: auto;
-  align:center;
+  margin:0 auto;
   
 }
+ img {
+   visibility: visible;
+ }
+  
+  
+  
+  
+
 /*
 img{
     width:"200px"; 
@@ -58,4 +64,4 @@ img{
     border-image: round;
     
     
-}
+}*/
